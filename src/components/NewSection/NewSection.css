@@ -1,0 +1,151 @@
+/* Контейнер для всего */
+.new-section {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Контейнер с карточками */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Ограничиваем видимость карточек */
+}
+
+/* Горизонтальный список для ScrollMenu */
+.horizontal-list {
+    display: flex; /* Горизонтальное расположение карточек */
+    gap: 15px; /* Зазор между карточками */
+    align-items: center;
+}
+
+/* Карточка товара */
+.product-card {
+    width: 250px; /* Ширина карточки */
+    height: 350px;
+    flex-shrink: 0; /* Запрещаем сжимать карточки */
+    margin: 10px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Картинка товара */
+.product-image {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Информация о товаре */
+.product-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-info h3,
+.product-info h4 {
+    margin: 5px 0;
+}
+
+.product-info button {
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.product-info button:hover {
+    background-color: #444;
+}
+
+/* Кнопки-стрелки */
+.arrow {
+    font-size: 24px;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow.left {
+    left: 0;
+}
+
+.arrow.right {
+    right: 0;
+}
+
+/* Контейнер для горизонтального списка */
+.react-horizontal-scrolling-menu--scroll-container {
+    display: flex; /* Устанавливаем горизонтальное выравнивание */
+    gap: 15px; /* Расстояние между карточками */
+    align-items: center; /* Выравниваем карточки по вертикали */
+    overflow-x: auto; /* Включаем горизонтальную прокрутку */
+    scroll-behavior: smooth; /* Плавный скроллинг */
+}
+
+/* Убираем стандартные полосы прокрутки, если нужно */
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Карточки внутри контейнера */
+.react-horizontal-scrolling-menu--item {
+    flex-shrink: 0; /* Запрещаем сжимать карточки */
+    width: 250px; /* Фиксируем ширину карточек */
+    height: 350px; /* Фиксируем высоту карточек */
+}
+
+/* Кнопки навигации */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.arrow.left {
+    left: 0;
+}
+
+.arrow.right {
+    right: 0;
+}
+

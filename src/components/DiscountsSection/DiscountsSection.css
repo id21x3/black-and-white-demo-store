@@ -1,0 +1,45 @@
+.discounts-section {
+    padding: 40px 20px;
+}
+
+.discount-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.discount-card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    max-width: 200px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.discount-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/*.product-image {*/
+/*    height: 300px;*/
+/*    overflow: hidden;*/
+/*    border-radius: 8px 8px 8px 8px;*/
+/*}*/
+
+/*.product-image img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*    transition: transform 0.3s ease;*/
+/*}*/
+
+.discount-card:hover .product-image img {
+    transform: scale(1.1);
+}
+
+.discount-tag {
+    color: red;
+    font-weight: bold;
+}
