@@ -1,0 +1,141 @@
+/* src/components/Header/Header.module.css */
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    margin-right: 1.5rem;
+}
+
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #ccc;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.userAccount {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.userIcon {
+    font-size: 1.6rem;  /* размер иконки */
+    margin-right: 8px;
+}
+
+.accountBalance {
+    margin-right: 6px;  /* уменьшен размер суммы */
+    font-size: 0.9rem;  /* уменьшен размер текста суммы */
+}
+
+.userAccount:hover .dropdownMenu {
+    display: block;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0.5rem;
+    min-width: 220px;  /* увеличена ширина */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    display: none;
+}
+
+.userAccount:hover .dropdownMenu {
+    display: block;
+}
+
+.card {
+    background-color: #444;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cardIcon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.cardUserInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardUsername {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.cardBalance {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItem {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.menuItem:hover {
+    background-color: #555;
+}

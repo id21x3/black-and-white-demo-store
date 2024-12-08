@@ -1,10 +1,10 @@
 import React from 'react';
-import Home from './pages/Home';
+import HomePage from "./pages/HomePage";
 
 const App: React.FC = () => {
   return (
       <div>
-        <Home />
+        <HomePage />
       </div>
   );
 };
