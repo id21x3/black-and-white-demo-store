@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
         <div>
             <Header />
             <Slider />
-            <Carousel cards={productData.slice(0, 5)} />
+            <Carousel cards={productData.slice(0, 5)} heading='New'/>
             <Footer />
         </div>
     );

@@ -10,9 +10,10 @@ interface Card {
 
 interface CarouselProps {
     cards: Card[];
+    heading: string; // Новое свойство для заголовка
 }
 
-const Carousel: React.FC<CarouselProps> = ({ cards }) => {
+const Carousel: React.FC<CarouselProps> = ({ cards, heading }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const cardsContainerRef = useRef<HTMLDivElement>(null);
 
@@ -42,6 +43,9 @@ const Carousel: React.FC<CarouselProps> = ({ cards }) => {
 
     return (
         <div className={styles.carousel}>
+            {/* Заголовок */}
+            <div className={styles.heading}>{heading}</div>
+
             {/* Кнопка прокрутки влево */}
             <button
                 className={styles.arrow}
