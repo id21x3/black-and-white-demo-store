@@ -5,27 +5,26 @@
     width: 100%;
     justify-content: center;
     overflow: hidden;
-    flex-direction: column; /* Позиционируем элементы по вертикали */
+    flex-direction: column;
 }
 
 .heading {
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 0;
     text-align: left;
-    padding-left: 20px; /* Отступ слева */
-    margin-top: 20px; /* Отступ сверху */
+    padding-left: 20px;
+    margin: 20px 0 0;
     position: relative;
 }
 
 .heading::after {
     content: '';
     position: absolute;
-    bottom: -5px; /* Располагаем линию чуть ниже текста */
-    left: 20px; /* Отступ от левого края, чтобы линия начиналась под текстом */
-    width: 70%; /* Ширина линии 70% */
-    height: 2px; /* Толщина линии */
-    background-color: black; /* Черная линия */
+    bottom: -5px;
+    left: 20px;
+    width: 80%;
+    height: 2px;
+    background-color: black;
 }
 
 .cardsContainer {
@@ -70,10 +69,23 @@
     margin: 0;
 }
 
+.priceContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+
 .price {
     font-size: 1rem;
     color: #777;
-    margin: 8px 0;
+    margin: 0 10px 0 0;
+}
+
+.discount {
+    font-size: 1rem;
+    color: red;
+    font-weight: bold;
 }
 
 .buyButton {

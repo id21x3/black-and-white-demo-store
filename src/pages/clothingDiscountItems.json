@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "image": "/images/clothes/T-shirt-black.jpg",
+    "title": "Black Shirt",
+    "price": "$19.99",
+    "discount": "-30%"
+  },
+  {
+    "id": 2,
+    "image": "/images/clothes/Hoodie-black.jpg",
+    "title": "Black Hoodie",
+    "price": "$39.99",
+    "discount": "-20%"
+  },
+  {
+    "id": 3,
+    "image": "/images/clothes/Black-shoes.jpg",
+    "title": "Black Shoes",
+    "price": "$114.99",
+    "discount": "-15%"
+  },
+  {
+    "id": 4,
+    "image": "/images/clothes/T-shirt-white.jpg",
+    "title": "White Shirt",
+    "price": "$49.99",
+    "discount": "-20%"
+  },
+  {
+    "id": 5,
+    "image": "/images/clothes/Backpack-black.jpg",
+    "title": "Black Backpack",
+    "price": "$59.99",
+    "discount": "-10%"
+  }
+]

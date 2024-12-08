@@ -6,11 +6,12 @@ interface Card {
     image: string;
     title: string;
     price: string;
+    discount?: string; // Добавляем свойство скидки
 }
 
 interface CarouselProps {
     cards: Card[];
-    heading: string; // Новое свойство для заголовка
+    heading: string;
 }
 
 const Carousel: React.FC<CarouselProps> = ({ cards, heading }) => {
@@ -32,7 +33,7 @@ const Carousel: React.FC<CarouselProps> = ({ cards, heading }) => {
     const handleScroll = (direction: 'left' | 'right') => {
         if (cardsContainerRef.current) {
             const container = cardsContainerRef.current;
-            const scrollAmount = 200; // Количество пикселей для прокрутки
+            const scrollAmount = 200;
             if (direction === 'left') {
                 container.scrollLeft -= scrollAmount;
             } else {
@@ -70,7 +71,14 @@ const Carousel: React.FC<CarouselProps> = ({ cards, heading }) => {
                         />
                         <div className={styles.info}>
                             <h3 className={styles.title}>{card.title}</h3>
-                            <p className={styles.price}>{card.price}</p>
+                            <div className={styles.priceContainer}>
+                                <p className={styles.price}>{card.price}</p>
+                                {card.discount && (
+                                    <span className={styles.discount}>
+                                        {card.discount}
+                                    </span>
+                                )}
+                            </div>
                             <button className={styles.buyButton}>BUY</button>
                         </div>
                     </div>
