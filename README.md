@@ -65,33 +65,7 @@ Follow these steps to run the project locally:
    ```
    http://localhost:3000
    ```
-
----
-
-## 🗂️ Project Structure
-
-```
-black-and-white/
-├── public/             # Static files (HTML, images, fonts)
-├── src/                # Application source code
-│   ├── components/     # Reusable UI components
-│   │   ├── Header/
-│   │   ├── Footer/
-│   │   ├── Slider/
-│   │   ├── ProductCard/
-│   │   └── InfoSection/
-│   ├── pages/          # Main application pages
-│   ├── redux/          # State management (slices, store)
-│   ├── styles/         # Global and reusable styles
-│   ├── utils/          # Helper functions
-│   ├── App.tsx         # Root application component
-│   ├── index.tsx       # Entry point
-│   └── types/          # TypeScript types
-├── package.json        # Project dependencies and scripts
-├── tsconfig.json       # TypeScript configuration
-└── README.md           # Project documentation
-```
-
+   
 ---
 
 ## 🎯 Future Enhancements
