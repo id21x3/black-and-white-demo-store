@@ -12,6 +12,24 @@ This project is a non-commercial e-commerce demo designed to showcase front-end 
 
 ---
 
+## 🖼️ Screenshots
+
+### Homepage
+
+![Homepage1](./screenshots/Homepage1.png)
+
+![Homepage2](./screenshots/Homepage2.png)
+
+![Homepage3](./screenshots/Homepage3.png)
+
+---
+
+## 👨‍💻 Designer
+
+The design concept was created by [Sokyrskyi Denys]([http://designer-portfolio-link.com](https://sokirskiydenis99.artstation.com)). Check out their portfolio for more amazing designs!
+
+---
+
 ## 🛠️ Technologies Used
 
 - **Frontend**: React, TypeScript, Styled Components.
@@ -86,21 +104,6 @@ black-and-white/
 - **Shopping Cart**: Add functionality for adding, removing, and updating cart items.
 - **Authentication**: Integrate user login and registration.
 - **Real API Integration**: Connect the frontend to a real backend.
-
----
-
-## 📄 License
-
-This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
-
-### Summary of the License:
-- **You are free to**:
-  - Share — copy and redistribute the material in any medium or format.
-  - Adapt — remix, transform, and build upon the material.
-- **Under the following terms**:
-  - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-  - **Non-Commercial** — You may not use the material for commercial purposes.
-- **Full license details**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ---
 
