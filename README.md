@@ -22,7 +22,7 @@ This project is a non-commercial e-commerce demo designed to showcase front-end 
 
 ## 👨‍💻 Designer
 
-The design concept was created by [Sokyrskyi Denys]([http://designer-portfolio-link.com](https://sokirskiydenis99.artstation.com)). Check out their portfolio for more amazing designs!
+The design concept was created by [Sokyrskyi Denys](https://sokirskiydenis99.artstation.com). Check out their portfolio for more amazing designs!
 
 ---
 
