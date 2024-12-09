@@ -1,35 +1,35 @@
 [
   {
     "id": 1,
-    "image": "/images/clothes/Discount-black-jacket.jpg",
+    "image": "/black-and-white-demo-store/images/clothes/Discount-black-jacket.jpg",
     "title": "Black Jacket",
     "price": "$29.99",
     "discount": "-30%"
   },
   {
     "id": 2,
-    "image": "/images/clothes/Discount-tiled-jacket.jpg",
+    "image": "/black-and-white-demo-store/images/clothes/Discount-tiled-jacket.jpg",
     "title": "Tiled Jacket",
     "price": "$49.99",
     "discount": "-20%"
   },
   {
     "id": 3,
-    "image": "/images/clothes/Lacoste-white.jpg",
+    "image": "/black-and-white-demo-store/images/clothes/Lacoste-white.jpg",
     "title": "White Lacoste",
     "price": "$127.99",
     "discount": "-15%"
   },
   {
     "id": 4,
-    "image": "/images/clothes/Discount-white-jacket.jpg",
+    "image": "/black-and-white-demo-store/images/clothes/Discount-white-jacket.jpg",
     "title": "White Jacket",
     "price": "$49.99",
     "discount": "-20%"
   },
   {
     "id": 5,
-    "image": "/images/clothes/Backpack-black.jpg",
+    "image": "/black-and-white-demo-store/images/clothes/Backpack-black.jpg",
     "title": "Black Backpack",
     "price": "$59.99",
     "discount": "-10%"

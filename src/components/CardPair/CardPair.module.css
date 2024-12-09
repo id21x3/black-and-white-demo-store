@@ -1,4 +1,4 @@
-.CardPair{
+.CardPair {
     margin-bottom: 5%;
     display: flex;
     align-items: center;
@@ -20,8 +20,8 @@
 
 .card {
     position: relative;
-    width: 30rem;
-    height: 20rem;
+    width: 100%;
+    height: 25rem;
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -32,7 +32,7 @@
 
 .card:hover {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
-    transform: scale(1.03); /* Легкое увеличение */
+    transform: scale(1.03);
 }
 
 .label {
@@ -45,6 +45,7 @@
     font-size: 16px;
     font-weight: bold;
     border-bottom-left-radius: 4px;
+    z-index: 10;
 }
 
 .heading {
@@ -66,11 +67,18 @@
     background-color: black;
 }
 
+.imageContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .image {
     width: 100%;
     height: 100%;
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
     filter: brightness(0.9);
     transition: filter 0.6s, transform 0.6s ease;
 }
@@ -93,6 +101,6 @@
 
 @media (min-width: 1024px) {
     .card {
-        flex: 0 0 calc(100%/4 - 1%*4);
+        flex: 0 0 25%;
     }
 }

@@ -46,8 +46,8 @@ const CardPair: React.FC = () => {
     };
 
     const cards = [
-        { label: "Men", imageUrl: "/images/clothes/16x9-men-card.jpg" },
-        { label: "Women", imageUrl: "/images/clothes/16x9-women-card.jpg" },
+        { label: "Men", imageUrl: "/black-and-white-demo-store/images/clothes/16x9-men-card.jpg" },
+        { label: "Women", imageUrl: "/black-and-white-demo-store/images/clothes/16x9-women-card.jpg" },
     ];
 
     return (
@@ -64,9 +64,13 @@ const CardPair: React.FC = () => {
                             transform: `perspective(1000px) rotateX(${rotations[index]?.x || 0}deg) rotateY(${rotations[index]?.y || 0}deg)`,
                         }}
                     >
-                        <div
-                            className={styles.image}
-                            style={{backgroundImage: `url(${card.imageUrl})`}}/>
+                        <div className={styles.imageContainer}>
+                            <img
+                                src={card.imageUrl}
+                                alt={`${card.label} clothes`}
+                                className={styles.image}
+                            />
+                        </div>
                         <div className={styles.label}>{card.label}</div>
                     </div>
                 ))}

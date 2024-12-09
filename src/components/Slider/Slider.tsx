@@ -4,8 +4,8 @@ import './Slider.css';
 const Slider: React.FC = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const images = [
-        '/images/slides/Image-1.jpg',
-        '/images/slides/Image-2.jpg'
+        '/black-and-white-demo-store/images/slides/Image-1.jpg',
+        '/black-and-white-demo-store/images/slides/Image-2.jpg'
     ];
 
     useEffect(() => {
