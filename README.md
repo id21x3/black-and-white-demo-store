@@ -18,10 +18,6 @@ This project is a non-commercial e-commerce demo designed to showcase front-end 
 
 ![Homepage1](./screenshots/Homepage1.png)
 
-![Homepage2](./screenshots/Homepage2.png)
-
-![Homepage3](./screenshots/Homepage3.png)
-
 ---
 
 ## 👨‍💻 Designer
