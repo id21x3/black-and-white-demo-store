@@ -23,13 +23,13 @@ const Header: React.FC = () => {
                             </a>
                         </li>
                         <li className={styles.navItem}>
-                            <a href="/for-guys" className={styles.navLink}>
-                                For Guys
+                            <a href="/Men" className={styles.navLink}>
+                                Men
                             </a>
                         </li>
                         <li className={styles.navItem}>
-                            <a href="/for-girls" className={styles.navLink}>
-                                For Girls
+                            <a href="/Women" className={styles.navLink}>
+                                Women
                             </a>
                         </li>
                         <li className={styles.navItem}>

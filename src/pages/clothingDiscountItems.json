@@ -1,29 +1,29 @@
 [
   {
     "id": 1,
-    "image": "/images/clothes/T-shirt-black.jpg",
-    "title": "Black Shirt",
-    "price": "$19.99",
+    "image": "/images/clothes/Discount-black-jacket.jpg",
+    "title": "Black Jacket",
+    "price": "$29.99",
     "discount": "-30%"
   },
   {
     "id": 2,
-    "image": "/images/clothes/Hoodie-black.jpg",
-    "title": "Black Hoodie",
-    "price": "$39.99",
+    "image": "/images/clothes/Discount-tiled-jacket.jpg",
+    "title": "Tiled Jacket",
+    "price": "$49.99",
     "discount": "-20%"
   },
   {
     "id": 3,
-    "image": "/images/clothes/Black-shoes.jpg",
-    "title": "Black Shoes",
-    "price": "$114.99",
+    "image": "/images/clothes/Lacoste-white.jpg",
+    "title": "White Lacoste",
+    "price": "$127.99",
     "discount": "-15%"
   },
   {
     "id": 4,
-    "image": "/images/clothes/T-shirt-white.jpg",
-    "title": "White Shirt",
+    "image": "/images/clothes/Discount-white-jacket.jpg",
+    "title": "White Jacket",
     "price": "$49.99",
     "discount": "-20%"
   },

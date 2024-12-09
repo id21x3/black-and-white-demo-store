@@ -4,4 +4,12 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #ffffff;
     color: #000000;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }

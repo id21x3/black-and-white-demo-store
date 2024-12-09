@@ -1,12 +1,13 @@
 import React from 'react';
-import HomePage from "./pages/HomePage";
+import { BrowserRouter as Router } from 'react-router-dom';
+import HomePage from './pages/HomePage';
 
 const App: React.FC = () => {
-  return (
-      <div>
-        <HomePage />
-      </div>
-  );
+    return (
+        <Router>
+            <HomePage />
+        </Router>
+    );
 };
 
 export default App;

@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.statItem {
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.value {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.label {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+@media (max-width: 768px) {
+    .statItem {
+        margin: 10px 0;
+    }
+
+    .value {
+        font-size: 30px;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+}

@@ -59,13 +59,13 @@
 }
 
 .userIcon {
-    font-size: 1.6rem;  /* размер иконки */
-    margin-right: 8px;
+    font-size: 1.8rem;  /* Увеличен размер иконки */
+    margin-right: 1rem;
 }
 
 .accountBalance {
-    margin-right: 6px;  /* уменьшен размер суммы */
-    font-size: 0.9rem;  /* уменьшен размер текста суммы */
+    margin-right: 1rem;
+    font-size: 1rem;  /* Увеличен размер текста суммы */
 }
 
 .userAccount:hover .dropdownMenu {
@@ -79,8 +79,8 @@
     background-color: #333;
     color: #fff;
     border-radius: 4px;
-    padding: 0.5rem;
-    min-width: 220px;  /* увеличена ширина */
+    padding: 0.75rem;
+    min-width: 220px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 9999;
     display: none;
@@ -104,8 +104,8 @@
 }
 
 .cardIcon {
-    font-size: 2rem;
-    margin-right: 10px;
+    font-size: 2.5rem;
+    margin-right: 1.25rem;
 }
 
 .cardUserInfo {
@@ -115,11 +115,11 @@
 
 .cardUsername {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .cardBalance {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #ccc;
 }
 
@@ -131,11 +131,26 @@
 .menuItem {
     color: #fff;
     text-decoration: none;
-    padding: 0.5rem 0;
+    padding: 0.75rem 0;
     font-size: 1rem;
     transition: background-color 0.3s ease;
 }
 
 .menuItem:hover {
     background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .navList {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .navLink {
+        font-size: 0.9rem;
+    }
+
+    .userAccount {
+        flex-direction: column;
+    }
 }
